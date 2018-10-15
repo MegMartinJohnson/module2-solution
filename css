@@ -1,1 +1,32 @@
+html{
+	font-family: Helvetica, sans-serif;
+}
 
+ul {font-size: 22px;
+font-family: Helvetica, sans-serif;
+margin-top: 50px;
+margin-left: 50px;}
+
+h1 { font-size: 30px;
+text-align: center; 
+font-family: Helvetica, sans-serif;}
+
+p {
+  float: right;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size:24px;
+}
+
+div {  background-color: #EDF7F3;
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  width:31%;
+  height:200px;
+  padding: 10px;
+  margin: 10px;
+}
