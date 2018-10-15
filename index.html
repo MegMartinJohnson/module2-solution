@@ -1,1 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meg's Restaurant Menu</title>
+<style>
+*{box-sizing: border-box;
+  }
 
+ul {font-size: 22px;
+font-family: Helvetica, sans-serif;
+margin-top: 50px;
+margin-left: 50px;}
+
+h1 { font-size: 30px;
+text-align: center; 
+font-family: Helvetica, sans-serif;}
+
+p {
+  float: right;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size:24px;
+
+}
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+
+
+div#container1 {
+  background-color: #EDF7F3;
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  width:31%;
+  height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+div#container2 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:31%;
+height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div#container3 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:31%;
+height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+  p {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 15px;
+  font-family: Helvetica, sans-serif;
+  font-size:24px;
+}
+
+#p1 {
+ background-color: #ff0000;
+ border: 1px solid black;
+}
+
+#p2 {
+  background-color: red;
+  border: 1px solid black;
+}
+#p3 {
+  background-color: red;
+  border: 1px solid black;
+}
+}
+
+/********** Tablet View **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+div#container1 {
+  background-color: #EDF7F3;
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  width:41%;
+  height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div#container2 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:41%;
+height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div#container3 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:84.5%;
+height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+ p {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  font-size:24px;
+}
+
+#p1 {
+ background-color: #ff0000;
+ border: 1px solid black;
+}
+
+#p2 {
+  background-color: red;
+  border: 1px solid black;
+}
+#p3 {
+  background-color: red;
+  border: 1px solid black;
+}}
+
+/********** Mobile View **********/
+@media (max-width: 767px) {
+
+div#container1 {
+  background-color: #EDF7F3;
+  border: 1px solid black;
+  position: relative;
+  float: left;
+  width:80%;
+  height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+div#container2 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:80%;
+height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div#container3 {
+ background-color: #EDF7F3;
+border: 1px solid black;
+position:relative;
+float: left;
+width:80%;
+height:200px;
+  padding: 10px;
+  margin: 10px;
+}
+  p {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  font-size: 24px;
+}
+
+#p1 {
+ background-color: #ff0000;
+ border: 1px solid black;
+}
+
+#p2 {
+  background-color: red;
+  border: 1px solid black;
+}
+#p3 {
+  background-color: red;
+  border: 1px solid black;
+} 
+
+
+
+</style>
+</head>
+<body>
+<section>
+  <h1> Meg's Restaurant Menu</h1>
+</section>
+
+
+<div id="container1">
+  <p id="p1">Breakfast</p>
+  <p id="p4"><ul>
+              <li>Eggs</li>
+              <li>Bacon</li>
+              <li>Pancakes</li>
+            </ul> 
+         </p>
+
+
+</div>
+
+<div id="container2">
+ <p id="p2">Lunch</p>
+   <p id="p5"> <ul>
+              <li>Caesar Salad</li>
+              <li>Ham Sandwich</li>
+              <li>Tomato Soup</li>
+            </ul> 
+         </p>
+</div>
+
+<div id="container3">
+  <p id="p3">Dinner</p>
+    <p id="p6"> <ul>
+              <li>Steak & Potatoes</li>
+              <li>Sausages & Vegetables</li>
+              <li>Spaghetti & Meatballs</li>
+            </ul> 
+         </p>
+</div>
+
+
+</body>
+</html>
